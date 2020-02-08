@@ -16,7 +16,7 @@ $ bash Anaconda3-5.1.0-Linux-x86_64.sh
 $ source ~/.bashrc
 $ conda install pytorch=0.4.1
 ```
-## TRADES+random smooth: A New Training Method with Certifiable Robustness
+## TRADES+random smooth: A New Training Method for Certifiable Robustness
 
 ### What is TRADES + random smoothing?
 We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian noise. The method minimizes a regularized surrogate loss L(.,.) (e.g., the cross-entropy loss) with Gaussian noise:
