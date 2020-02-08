@@ -1,6 +1,6 @@
 # TRADES-random-smoothing
 
-This is the code for the paper "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images" by Avrim Blum (TTIC), Travis Dick (University of Pennsylvania), Naren Manoj (TTIC), and Hongyang Zhang (TTIC).
+This is the code for the paper "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images" by Avrim Blum (TTIC), Travis Dick (University of Pennsylvania), Naren Manoj (TTIC), and Hongyang Zhang (TTIC) (ordered in alphabetical order).
 
 ## Prerequisites
 * Python (3.6.4)
