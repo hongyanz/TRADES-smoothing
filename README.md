@@ -16,3 +16,4 @@ $ bash Anaconda3-5.1.0-Linux-x86_64.sh
 $ source ~/.bashrc
 $ conda install pytorch=0.4.1
 ```
+## TRADES + random smoothing: A New Training Algorithm with Certifiable Robustness
