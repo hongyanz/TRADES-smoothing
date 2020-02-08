@@ -30,6 +30,13 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
   $ python train_trades_dim.py
 ```
 
+### Effectiveness of lower bound:
+
+* Train ResNet-110 model on CIFAR10:
+```bash
+  $ python train_trades_dim.py
+```
+
 <p align="center">
     <img src="results/vary_dim_cifar10_trades.png" width="450"\>
 </p>
