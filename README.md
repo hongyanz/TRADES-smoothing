@@ -1,6 +1,6 @@
 # TRADES-random-smoothing
 
-This is the code for the paper "Random Smoothing Might be Unable to Certify L∞ Robustness for High-Dimensional Images".
+This is the code for the paper "Random Smoothing Might be Unable to Certify $L_∞$ Robustness for High-Dimensional Images".
 
 ## Prerequisites
 * Python (3.6.4)
