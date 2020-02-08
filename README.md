@@ -17,3 +17,5 @@ $ source ~/.bashrc
 $ conda install pytorch=0.4.1
 ```
 ## TRADES+random smooth: A New Training Method with Certifiable Robustness
+
+### What is TRADES+random smoothing?
