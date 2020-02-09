@@ -37,6 +37,19 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
   $ python code/certify_trades.py cifar10 --imagesize 32 --sigma 0.12 --outfile 'results/output_noise12_size32_l2trades0435_beta6_full' --skip 1 --batch 10000 --load_dir 'checkpoints/model_noise12_size32_l2trades0435_beta6/model-res110-epoch.pt'
 ```
 
+| Method              	| Robust Accuracy  	| Natural Accuracy |
+|-----------------------|-----------------------|------------------|
+| TRADES + Random Smoothing   		|  62.6%   	|   78.7%    		|
+| Salman et al. (2019)   		|  60.8%   	|   82.1%    		|
+| Zhang et al. (2020)   		|  54.0%   	|   72.0%    		|
+| Wong et al. (2018)   		|  53.9%   	|   68.3%    		|
+| Mirman et al. (2018)   		|  52.2%   	|   62.0%    		|
+| Gowal et al. (2020)   		|  50.0%   	|   70.2%    		|
+| Xiao et al. (2020)   		|  45.9%   	|   61.1%    		|
+
+
+
+
 ### Effectiveness of lower bound:
 * Train ResNet-110 models of varying input sizes (32, 48, 64) on CIFAR10:
 ```bash
