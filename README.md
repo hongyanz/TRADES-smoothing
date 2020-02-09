@@ -25,7 +25,7 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 
 ## Running Demos
 
-### Certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robustness:
+### Certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robustness at radius 2/255:
 
 * Train ResNet-110 model on CIFAR10:
 ```bash
