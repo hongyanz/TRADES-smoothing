@@ -2,7 +2,7 @@
 
 This is the code for the paper "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images".
 
-TRADES + Randomized smoothing achieves SOTA certified robustness in ![](http://latex.codecogs.com/gif.latex?\ell_\infty) norm at radius 2/255.
+TRADES + randomized smoothing achieves SOTA certified robustness in ![](http://latex.codecogs.com/gif.latex?\ell_\infty) norm at radius 2/255.
 
 ## Prerequisites
 * Python (3.6.4)
