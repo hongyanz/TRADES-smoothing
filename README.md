@@ -48,7 +48,7 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 * Certify ResNet-110 models of varying input sizes on CIFAR10:
 ```bash
   $ python code/certify_trades.py cifar10 --imagesize 32 --sigma 0.12 --outfile 'results/output_noise12_size32_l2trades0435_beta6' --skip 20 --batch 10000 --load_dir 'checkpoints/model_noise12_size32_l2trades0435_beta6/model-wideres-epoch.pt'
-  $ python code/certify_trades.py cifar10 --imagesize 48 --sigma 0.18 --outfile 'results/output_noise18_size46_l2trades06525_beta6' --skip 20 --batch 10000 --load_dir 'checkpoints/model_noise18_size48_l2trades06525_beta6/model-wideres-epoch.pt'
+  $ python code/certify_trades.py cifar10 --imagesize 48 --sigma 0.18 --outfile 'results/output_noise18_size48_l2trades06525_beta6' --skip 20 --batch 10000 --load_dir 'checkpoints/model_noise18_size48_l2trades06525_beta6/model-wideres-epoch.pt'
   $ python code/certify_trades.py cifar10 --imagesize 64 --sigma 0.24 --outfile 'results/output_noise24_size64_l2trades087_beta6' --skip 20 --batch 10000 --load_dir 'checkpoints/model_noise24_size64_l2trades087_beta6/model-wideres-epoch.pt'
 ```
 
