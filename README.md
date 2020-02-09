@@ -27,15 +27,32 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 
 ### Certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robustness:
 
-* Train and certify ResNet-110 model on CIFAR10:
+* Train ResNet-110 model on CIFAR10:
 ```bash
   $ python code/train_trades_dim.py --epsilon 0.435 --imagesize 32 --noise_sd 0.12 --model-dir 'model_noise12_size32_l2trades0435_beta6'
+```
+
+* Certify ResNet-110 model on CIFAR10:
+```bash
   $ python code/certify_trades_dim.py cifar10 --imagesize 32 --sigma 0.12 --outfile 'results/output_noise12_size32_l2trades0435_beta6_full' --skip 1 --batch 10000 --load_dir './model_noise12_size32_l2trades0435_beta6/model-wideres-epoch.pt'
 ```
 
 ### Effectiveness of lower bound:
-
 * Train ResNet-110 model on CIFAR10:
+```bash
+  $ python code/train_trades_dim.py --epsilon 0.435 --imagesize 32 --noise_sd 0.12 --model-dir 'model_noise12_size32_l2trades0435_beta6'
+  $ python code/train_trades_dim.py --epsilon 0.6525 --imagesize 48 --noise_sd 0.18 --model-dir 'model_noise18_size48_l2trades06525_beta6'
+  $ python code/train_trades_dim.py --epsilon 0.87 --imagesize 64 --noise_sd 0.24 --model-dir 'model_noise24_size64_l2trades087_beta6'
+```
+
+* Certify ResNet-110 model on CIFAR10:
+```bash
+  $ python code/certify_trades_dim.py cifar10 --imagesize 32 --sigma 0.12 --outfile 'results/output_noise12_size32_l2trades0435_beta6' --skip 20 --batch 10000 --load_dir './model_noise12_size32_l2trades0435_beta6/model-wideres-epoch.pt'
+  $ python code/certify_trades_dim.py cifar10 --imagesize 48 --sigma 0.18 --outfile 'results/output_noise18_size46_l2trades06525_beta6' --skip 20 --batch 10000 --load_dir './model_noise18_size48_l2trades06525_beta6/model-wideres-epoch.pt'
+  $ python code/certify_trades_dim.py cifar10 --imagesize 64 --sigma 0.24 --outfile 'results/output_noise24_size64_l2trades087_beta6' --skip 20 --batch 10000 --load_dir './model_noise24_size64_l2trades087_beta6/model-wideres-epoch.pt'
+```
+
+* Analyze results:
 ```bash
   $ python code/analyze.py 
 ```
