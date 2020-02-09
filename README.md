@@ -30,7 +30,7 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 * Train and certify ResNet-110 model on CIFAR10:
 ```bash
   $ python code/train_trades_dim.py --epsilon 0.435 --imagesize 32 --noise_sd 0.12 --model-dir 'model_noise12_size32_l2trades0435_beta6'
-  $ python code/certify_trades_dim.py cifar10 --sigma 0.12 'analysis/output_tradesl2_lambda10_newnewdim75_noise45' --skip 1 --batch 10000 --load_dir './model_noise12_size32_l2trades0435_beta6/model-wideres-epoch.pt'
+  $ python code/certify_trades_dim.py cifar10 --imagesize 32 --sigma 0.12 'analysis/output_tradesl2_lambda10_newnewdim75_noise45' --skip 1 --batch 10000 --load_dir './model_noise12_size32_l2trades0435_beta6/model-wideres-epoch.pt'
 ```
 
 ### Effectiveness of lower bound:
