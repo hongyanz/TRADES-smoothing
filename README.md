@@ -37,7 +37,7 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 
 * Train ResNet-110 model on CIFAR10:
 ```bash
-  $ python train_trades_dim.py
+  $ python code/analyze.py 
 ```
 
 <p align="center">
