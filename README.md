@@ -44,8 +44,8 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 | Zhang et al. (2020)   		|  54.0%   	|   72.0%    		|
 | Wong et al. (2018)   		|  53.9%   	|   68.3%    		|
 | Mirman et al. (2018)   		|  52.2%   	|   62.0%    		|
-| Gowal et al. (2020)   		|  50.0%   	|   70.2%    		|
-| Xiao et al. (2020)   		|  45.9%   	|   61.1%    		|
+| Gowal et al. (2018)   		|  50.0%   	|   70.2%    		|
+| Xiao et al. (2019)   		|  45.9%   	|   61.1%    		|
 
 
 
