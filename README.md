@@ -77,4 +77,4 @@ We used TRADES to train a soft-random-smoothing classifier by injecting Gaussian
 </p>
 <p align="center">
   
-We observe that the three curves of varying input sizes behave similarly. This empirically supports our theoretical finding that the certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robust radius ε should be proportional to the quantity ![](http://latex.codecogs.com/gif.latex?\sigma/\sqrt{d}). 
+It shows that the three curves of varying input sizes behave similarly. This empirically supports that the certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robust radius ε should be proportional to the quantity ![](http://latex.codecogs.com/gif.latex?\sigma/\sqrt{d}). 
