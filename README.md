@@ -1,6 +1,6 @@
 # TRADES-random-smoothing
 
-This is the code for the paper "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images".
+This is the code for the [paper](https://arxiv.org/abs/2002.03517) "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images".
 
 TRADES + randomized smoothing achieves SOTA certified robustness in ![](http://latex.codecogs.com/gif.latex?\ell_\infty) norm at radius 2/255.
 
