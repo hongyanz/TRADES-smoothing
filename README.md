@@ -42,8 +42,8 @@ We used [TRADES](https://github.com/yaodongyu/TRADES) [[paper]](https://arxiv.or
 | Method              	| Robust Accuracy  	| Natural Accuracy |
 |-----------------------|-----------------------|------------------|
 | TRADES + Random Smoothing   		|  62.6%   	|   78.7%    		|
-| Salman et al. (2019)   		|  60.8%   	|   82.1%    		|
-| Zhang et al. (2020)   		|  54.0%   	|   72.0%    		|
+| [Salman et al. (2019)](https://arxiv.org/pdf/1906.04584.pdf)   		|  60.8%   	|   82.1%    		|
+| [Zhang et al. (2020)](https://arxiv.org/pdf/1906.06316.pdf)   		|  54.0%   	|   72.0%    		|
 | Wong et al. (2018)   		|  53.9%   	|   68.3%    		|
 | Mirman et al. (2018)   		|  52.2%   	|   62.0%    		|
 | Gowal et al. (2018)   		|  50.0%   	|   70.2%    		|
