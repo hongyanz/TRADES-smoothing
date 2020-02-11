@@ -78,3 +78,17 @@ We used [TRADES](https://github.com/yaodongyu/TRADES) [[paper]](https://arxiv.or
 <p align="center">
   
 It shows that the three curves of varying input sizes behave similarly. This empirically supports that the certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robust radius ε should be proportional to the quantity ![](http://latex.codecogs.com/gif.latex?\sigma/\sqrt{d}). 
+
+## Reference
+For technical details and full experimental results, please check [the paper](https://arxiv.org/pdf/1901.08573.pdf).
+```
+@article{Blum2020random, 
+	author = {Avrim Blum and Travis Dick and Naren Manoj and Hongyang Zhang}, 
+	title = {Random Smoothing Might be Unable to Certify $\ell_\infty$ Robustness for High-Dimensional Images}, 
+	journal = {arXiv preprint arXiv:2002.03517},
+	year = {2020}
+}
+```
+
+## Contact
+Please contact hongyanz@ttic.edu if you have any question on the codes. Enjoy!
