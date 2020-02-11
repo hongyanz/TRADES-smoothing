@@ -44,10 +44,10 @@ We used [TRADES](https://github.com/yaodongyu/TRADES) [[paper]](https://arxiv.or
 | TRADES + Random Smoothing   		|  62.6%   	|   78.7%    		|
 | [Salman et al. (2019)](https://arxiv.org/pdf/1906.04584.pdf)   		|  60.8%   	|   82.1%    		|
 | [Zhang et al. (2020)](https://arxiv.org/pdf/1906.06316.pdf)   		|  54.0%   	|   72.0%    		|
-| Wong et al. (2018)   		|  53.9%   	|   68.3%    		|
-| Mirman et al. (2018)   		|  52.2%   	|   62.0%    		|
-| Gowal et al. (2018)   		|  50.0%   	|   70.2%    		|
-| Xiao et al. (2019)   		|  45.9%   	|   61.1%    		|
+| [Wong et al. (2018)](https://arxiv.org/pdf/1805.12514.pdf)   		|  53.9%   	|   68.3%    		|
+| [Mirman et al. (2018)](http://proceedings.mlr.press/v80/mirman18b/mirman18b.pdf)   		|  52.2%   	|   62.0%    		|
+| [Gowal et al. (2018)](https://arxiv.org/pdf/1810.12715.pdf)   		|  50.0%   	|   70.2%    		|
+| [Xiao et al. (2019)](https://arxiv.org/pdf/1809.03008.pdf)   		|  45.9%   	|   61.1%    		|
 
 
 
