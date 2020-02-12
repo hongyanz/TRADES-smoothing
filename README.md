@@ -82,7 +82,7 @@ It shows that the three curves of varying input sizes behave similarly. This emp
 ## Reference
 For technical details and full experimental results, please check [the paper](https://arxiv.org/abs/2002.03517).
 ```
-@article{Blum2020random, 
+@article{Random2020, 
 	author = {Avrim Blum and Travis Dick and Naren Manoj and Hongyang Zhang}, 
 	title = {Random Smoothing Might be Unable to Certify $\ell_\infty$ Robustness for High-Dimensional Images}, 
 	journal = {arXiv preprint arXiv:2002.03517},
