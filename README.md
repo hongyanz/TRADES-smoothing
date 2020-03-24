@@ -37,7 +37,7 @@ We used [TRADES](https://github.com/yaodongyu/TRADES) [[paper]](https://arxiv.or
   $ python code/certify_trades.py cifar10 --imagesize 32 --sigma 0.12 --outfile 'results/output_noise12_size32_l2trades0435_beta6_full' --skip 1 --batch 10000 --load-dir 'checkpoints/model_noise12_size32_l2trades0435_beta6/model-res110-epoch.pt'
 ```
 
-* Benchmark on certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robustness at radius 2/255:
+* Benchmark on certified ![](http://latex.codecogs.com/gif.latex?\ell_\infty) robustness at radius 2/255 on CIFAR-10:
 
 | Method              	| Robust Accuracy  	| Natural Accuracy |
 |-----------------------|-----------------------|------------------|
