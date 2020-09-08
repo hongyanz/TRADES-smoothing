@@ -1,6 +1,6 @@
 # TRADES-random-smoothing
 
-This is the code for [the paper](https://arxiv.org/abs/2002.03517) "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images" by Avrim Blum (TTIC), Travis Dick (U. of Pennsylvania), Naren Manoj (TTIC), and [Hongyang Zhang](http://www.cs.cmu.edu/~hongyanz/) (TTIC), ordered alphabetically.
+This is the code for [JMLR paper](https://arxiv.org/abs/2002.03517) "Random Smoothing Might be Unable to Certify ![](http://latex.codecogs.com/gif.latex?\ell_\infty) Robustness for High-Dimensional Images" by Avrim Blum (TTIC), Travis Dick (U. of Pennsylvania), Naren Manoj (TTIC), and [Hongyang Zhang](http://www.cs.cmu.edu/~hongyanz/) (TTIC), ordered alphabetically.
 
 TRADES + Random Smoothing achieves SOTA certified robustness in ![](http://latex.codecogs.com/gif.latex?\ell_\infty) norm at radius 2/255.
 
@@ -85,7 +85,7 @@ For technical details and full experimental results, please check [the paper](ht
 @article{blum2020random, 
 	author = {Avrim Blum and Travis Dick and Naren Manoj and Hongyang Zhang}, 
 	title = {Random Smoothing Might be Unable to Certify $\ell_\infty$ Robustness for High-Dimensional Images}, 
-	journal = {arXiv preprint arXiv:2002.03517},
+	journal = {Journal of Machine Learning Research},
 	year = {2020}
 }
 ```
